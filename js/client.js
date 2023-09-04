@@ -6,5 +6,7 @@ const messageContainer = document.querySelector(".container");
 
 //User Joins
 
-const name = prompt("Enter your name to join");
-socket.emit('new-user-joined', name );
+const name1 = prompt("Enter your name to join LetsChat")
+socket.emit('new-user-joined', name1)
+
+
