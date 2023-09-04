@@ -6,5 +6,5 @@ const messageContainer = document.querySelector(".container");
 
 //User Joins
 
-const Uname = prompt("Enter your name to join");
-socket.emit('new-user-joined', Uname );
+const name = prompt("Enter your name to join");
+socket.emit('new-user-joined', name );
